@@ -14,7 +14,7 @@ If you are using varcel's Hobby Plan then you can face trouble in sending email 
 ## NextJS Code
 Here is code that you can add in your endpoints where you wants to send email:
 
-```
+```javascript
 
 import axios from 'axios'
 const sendEmail = async (to, subject, text) => {
